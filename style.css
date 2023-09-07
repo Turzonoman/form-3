@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+
+}
+.main-container{
+
+width: 100%;
+
+margin: auto;
+
+background: #fafafa;
+}
+.contact-up{
+
+display: flex;
+
+justify-content: space-evenly;
+
+width: 80%;
+
+margin: auto;
+
+padding: 9px 0px;
+}
+.contact-title{
+    margin-bottom: 80px;
+}
+.contact-title h3{
+
+font-size: 30px;
+
+text-align: center;
+
+padding-top: 66px;
+
+text-transform: capitalize;
+}
+.contact-logo{
+
+width: 20%;
+}
+.logo{
+
+margin: auto;
+
+background: #46b5d1;
+
+line-height: 60px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 60px;
+
+width: 60px;
+
+border-radius: 50%;
+
+color: #fff;
+
+font-size: 23px;
+
+margin-bottom: 22px;
+}
+.contact-logo span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-logo span a{
+    
+text-decoration: none;
+    
+color: #46b5d1;
+}
+
+.contact-down{
+
+margin-top: 100px;
+
+padding-bottom: 100px;
+}
+.main-info{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+background: #fff;
+
+/* margin-bottom: 81px; */
+}
+.left{
+
+width: 55%;
+}
+.left h3{
+
+font-size: 30px;
+
+padding: 46px 43px;
+}
+.form{
+
+padding: 0px 44px;
+}
+.form form input{
+
+width: 100%;
+
+padding: 17px 0px 17px 0px;
+
+margin-bottom: 10px;
+
+border: none;
+
+border-bottom: 1px solid #ddd;
+
+text-transform: capitalize;
+
+font-family: 'Poppins', sans-serif;
+}
+.form form input[type="button"]{
+    width: auto;
+    padding: 0;
+    background: #46b5d1;
+    border-color: #46b5d1;
+    border-radius: 5px;
+    color: #fff;
+    padding: 18px 24px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.form form textarea{
+
+width: 100%;
+
+padding: 17px 0px 17px 0px;
+
+margin-bottom: 10px;
+
+border: none;
+font-family: 'Poppins', sans-serif;
+
+border-bottom: 1px solid #ddd;
+
+text-transform: capitalize;
+}
+.form form label{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.name-one{
+
+width: 45%;
+}
+.name-two{
+
+width: 45%;
+}
+
+.right{
+    
+width: 45%;
+}
+.right img{
+
+width: 100%;
+}
